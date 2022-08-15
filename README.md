@@ -5,3 +5,8 @@ Organizations such as charities raise money for a purpose, but tracking their ex
 In our current reality, chunks of fundraised donations will be used to pay operating and processing fees for middlemen. We envision a way for donations raised to be invested directly to the causes that matter most to the people, whether it be a charitable cause, aiding world disaster, alleviating global poverty, or much more. The use of blockchain and smart contracts will provide traceability and accountability, ensuring funds raised will only be used for the cause in which they contributed. Additionally, by using blockchain we devise methods of lowering donation transaction and taxation fees, as well as enforcing terms outlined in smart contracts with each donation. This ensures more funds are provided directly to a campaign, rather than funding a middleman.
 
 Our solution to this donor/organization trust problem was to create a platform where a charity can: create fundraising clearly stating its intent and project scope, openly share the budget allocation (including each recipient's wallet), and create and deploy a crowdfunding campaign. Our hope is to give more power to individuals donating via the ability to see where funding is spent. This will in turn give donors a more direct and personal connection to their contributions and the collective causes that matter the most to them.
+
+# SmartContract flow chart
+![Fundraisers details are collected using addFund() function](https://user-images.githubusercontent.com/107904467/184612096-51b444c2-b453-466a-849e-6dea66893358.png)
+
+# Screenshots of DEPLOYED & RUN TRANSACTIONS
