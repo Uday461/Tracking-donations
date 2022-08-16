@@ -49,13 +49,13 @@ contract FundRaising{
       bool status
     );
     
-  /*   modifier onlyAdmin(){
+   modifier onlyAdmin(){
         require(msg.sender==admin);
         _;
     }
     
     address public admin=0xdD870fA1b7C4700F2BD7f44238821C26f7392148;
-    */
+
   
     mapping (uint=>fundraiser)  public fundraisers;
     mapping (uint=>contributor) public contributors;
@@ -73,7 +73,7 @@ contract FundRaising{
     }
     
     
-    function approvefund(uint _f_id)public {
+    function approvefund(uint _f_id)public onlyAdmin(){
         fundraisers[_f_id].status=true;
         emit fundapproved(fundraisers[_f_id].status);
     }
