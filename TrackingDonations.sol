@@ -73,7 +73,7 @@ contract FundRaising{
     }
     
     
-    function approvefund(uint _f_id)public {
+    function approvefund(uint _f_id)public onlyAdmin(){
         fundraisers[_f_id].status=true;
         emit fundapproved(fundraisers[_f_id].status);
     }
